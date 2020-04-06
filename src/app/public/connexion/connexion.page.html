@@ -1,0 +1,22 @@
+<ion-content [fullscreen]="true">
+  <div id="container">
+    <img src="../../../assets/img/logoMiage.png" />
+    <ion-item>
+      <ion-label position="floating">Identifiant</ion-label>
+      <ion-input></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Mot de passe</ion-label>
+      <ion-input></ion-input>
+    </ion-item>
+    <div class="fullWidth">
+      <ion-button color="tertiary" [routerLink]="['/membre']">Se connecter
+      </ion-button>
+    </div>
+    <p>
+      Pas encore de compte ? <strong>Par ici !</strong>
+    </p>
+    <ion-button color="tertiary" [routerLink]="['/public/inscription']">Inscription
+    </ion-button>
+  </div>
+</ion-content>
