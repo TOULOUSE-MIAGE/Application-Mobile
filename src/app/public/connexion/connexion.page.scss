@@ -1,11 +1,14 @@
 #container {
   text-align: center;
-
+  height: 100%;
   position: absolute;
   left: 0;
   right: 0;
   top: 10%;
   transform: translateY(-10%);
+  background-image:url('https://i.pinimg.com/736x/45/ce/29/45ce2986d79fc7cd05014bd522a88834.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #container img {
@@ -14,10 +17,29 @@
 #container ion-item{
   margin: 0 20px 0 20px;
 }
+ion-input{
+  border-bottom: 1px solid #265967;
+
+}
 ion-content ion-toolbar {
   --background: translucent;
+}
+.ion-color-white {
+  --ion-color-base:#fff;
+}
+.ion-color-grey {
+  --ion-color-base:#265967;
 }
 .fullWidth{
   width: 100%;
   padding: 10px;
+}
+
+#container p:active, p:hover{
+  color: grey;
+}
+
+#container .btnConnexion{
+  --border-radius: 0px;
+  height: 40px;
 }
